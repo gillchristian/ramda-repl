@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+const path = require('path')
+const os = require('os')
+const makeRepl = require('repl-maker')
+
+const R = require('ramda')
+
+makeRepl({
+  historyFile: path.join(os.homedir(), '.ramda_repl_history'),
+  context: { R, ...R }
+})

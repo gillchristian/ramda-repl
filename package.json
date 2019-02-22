@@ -1,0 +1,13 @@
+{
+  "name": "ramda-repl",
+  "version": "1.0.0",
+  "description": "ramda repl",
+  "repository": "git@github.com:gillchristian/ramda-repl.git",
+  "author": "gillchristian <gillchristiang@gmail.com>",
+  "license": "MIT",
+  "bin": "./bin/ramda-repl",
+  "dependencies": {
+    "ramda": "^0.26.1",
+    "repl-maker": "^0.0.2"
+  }
+}
